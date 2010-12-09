@@ -21,6 +21,8 @@
       <configuration>
         <webroots>
           <root url="file://$USER_HOME$/.grails/1.3.5/projects/testCdn/plugins/zipped-resources-1.0-alpha5/grails-app/views" relative="/" />
+          <root url="file://$USER_HOME$/.grails/1.3.5/projects/testCdn/plugins/cache-headers-1.1.2/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/1.3.5/projects/testCdn/plugins/cached-resources-1.0-alpha6/grails-app/views" relative="/" />
         </webroots>
         <sourceRoots />
       </configuration>
