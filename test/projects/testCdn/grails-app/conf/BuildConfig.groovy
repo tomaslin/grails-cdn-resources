@@ -30,4 +30,4 @@ grails.project.dependency.resolution = {
     }
 }
 
-grails.plugin.location.'cloud-resources' = '../../../'
+grails.plugin.location.'cdn-resources' = '../../../'

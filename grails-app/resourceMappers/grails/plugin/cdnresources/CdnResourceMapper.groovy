@@ -1,6 +1,6 @@
-package grails.plugin.cloudresources
+package grails.plugin.cdnresources
 
-class CloudResourceMapper {
+class CdnResourceMapper {
 
     def priority = 15000 // after resources have been zipped, cached + properly beaten
 	def url 
@@ -14,12 +14,10 @@ class CloudResourceMapper {
 	
 	def getCDNUrl( ){
 		if( !url ){
-		    def config = grailsApplication.config.cloudresource
-			if( config.cloudFront.enabled ){
-                url = config.cloudFront.url
-            } else if( config.s3.enabled ){
-                url = config.s3.url
-            } else if( config.enabled ){
+
+		    def config = grailsApplication.config.cdnresources
+
+            if( config.enabled ){
                 url = config.url
             } else {
                 url = 'none'

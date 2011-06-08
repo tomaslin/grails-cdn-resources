@@ -2,10 +2,10 @@ class CloudResourcesGrailsPlugin {
   // the plugin version
   def version = "0.1"
   // the version or versions of Grails the plugin is designed for
-  def grailsVersion = "1.3.5 > *"
+  def grailsVersion = "1.3.7 > *"
 
   // the other plugins this plugin depends on
-  def dependsOn = [resources:'1.0-alpha11 > *']
+  def dependsOn = [resources:'1.0 > *']
   def loadAfter = ['resources']
 
   // resources that are excluded from plugin packaging
@@ -18,9 +18,9 @@ class CloudResourcesGrailsPlugin {
   // TODO Fill in these fields
   def author = "Tomas Lin"
   def authorEmail = "tomaslin@gmail.com"
-  def title = "Cloud Resources Plugin"
+  def title = "Cdn Resources Plugin"
   def description = '''\\
-Loads static resources using Content Delivery Networks and off-site cloud storage using the Resources plugin framework
+Loads static resources using Content Delivery Networks using the Resources plugin framework
 '''
   // URL to the plugin's documentation
   def documentation = "http://grails.org/plugin/cloud-resources"
