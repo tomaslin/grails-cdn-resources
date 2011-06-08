@@ -83,14 +83,5 @@ log4j = {
     warn   'org.mortbay.log'
 }
 
-cloudresource.enabled = true
-cloudresource.url = "http://static.mywebsite.com/"
-
-cloudresource.s3.enabled = false
-cloudresource.s3.url = "http://s3.amazonaws.com"
-cloudresource.s3.accessKey = "01234567890ABCDEFGHI"
-cloudresource.s3.secret = "YOUR_KEY/GOES/HERE/ABCDEFGHIJ_1234567890"
-cloudresource.s3.bucket = "static.bucketname.mywebsite.com"
-
-cloudresource.cloudFront.enabled = false
-cloudresource.cloudFront.url = "http://static.mywebsite.com"
+cdnResources.enabled = true
+cdnResources.url = "http://test.domain.com"
