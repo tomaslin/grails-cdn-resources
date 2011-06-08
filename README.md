@@ -30,17 +30,17 @@ The following section describes how to do so on Amazon CloudFront. You would nee
 
 3. Select custom Origin and enter the URL of your site. 
 
-![Set custom origin](raw/master/docs/origin.png "specifying an origin")
+![Set custom origin](https://github.com/tomaslin/grails-cdn-resources/raw/master/docs/origin.png "specifying an origin")
 
 4. If you wish to map the URL to a CNAME ( ie, point to cdn.mydomain.com instead of 5kfd933kkdd.cloudfront.net ), you can specify this in the next screen.
 
 5. Review the details and click OK.
 
-![Review Details](raw/master/docs/details.png "Review Details")
+![Review Details](https://github.com/tomaslin/grails-cdn-resources/raw/master/docs/details.png "Review Details")
 
 6. You should now see your Cloudfront distribution. 
 
-![Distribution](raw/master/docs/dist.png "Distribution details")
+![Distribution](https://github.com/tomaslin/grails-cdn-resources/raw/master/docs/dist.png "Distribution details")
 
 You will see an url of the form jlsadf423kl24hlf.cloudfront.net . This will be the value that you enter in the cdnresources.url value in Config.groovy.
 

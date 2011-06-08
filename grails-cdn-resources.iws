@@ -14,15 +14,7 @@
     <option name="historyRevisionsNumber" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34c8751a-4846-433f-a9c4-55fd5fa7936c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/projects/testCdn/application.properties" afterPath="$PROJECT_DIR$/test/projects/testCdn/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/projects/testCdn/web-app/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/test/projects/testCdn/web-app/WEB-INF/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/projects/testCdn/web-app/WEB-INF/sitemesh.xml" afterPath="$PROJECT_DIR$/test/projects/testCdn/web-app/WEB-INF/sitemesh.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/projects/testCdn/web-app/WEB-INF/tld/c.tld" afterPath="$PROJECT_DIR$/test/projects/testCdn/web-app/WEB-INF/tld/c.tld" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/projects/testCdn/web-app/WEB-INF/tld/fmt.tld" afterPath="$PROJECT_DIR$/test/projects/testCdn/web-app/WEB-INF/tld/fmt.tld" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/projects/testCdn/web-app/WEB-INF/tld/grails.tld" afterPath="$PROJECT_DIR$/test/projects/testCdn/web-app/WEB-INF/tld/grails.tld" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/projects/testCdn/web-app/WEB-INF/tld/spring.tld" afterPath="$PROJECT_DIR$/test/projects/testCdn/web-app/WEB-INF/tld/spring.tld" />
-    </list>
+    <list default="true" id="34c8751a-4846-433f-a9c4-55fd5fa7936c" name="Default" comment="" />
     <ignored path="grails-cdn-resources.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
