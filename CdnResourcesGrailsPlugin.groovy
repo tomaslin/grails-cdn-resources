@@ -12,7 +12,8 @@ class CloudResourcesGrailsPlugin {
   def pluginExcludes = [
           "grails-app/views/error.gsp",
           "web-app/css/**/*.*",
-          "web-app/js/**/*.*"
+          "web-app/js/**/*.*",
+          "docs/*.*"
   ]
 
   // TODO Fill in these fields
