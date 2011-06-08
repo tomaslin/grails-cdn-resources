@@ -15,8 +15,8 @@ In your application directory, call
 	
 You would need to add the following parameters to your config.groovy file
 
-	$ cdnresources.enabled = true
-	$ cdnresources.url = "http://static.mydomain.com/"
+	$ cdnResources.enabled = true
+	$ cdnResources.url = "http://static.mydomain.com/"
 	
 If you set up your Content Delivery Network correctly, all your resource files will be served from the CDN from now on. 
 	
@@ -48,8 +48,4 @@ The following section describes how to do so on Amazon CloudFront. You would nee
 
 You will see an url of the form jlsadf423kl24hlf.cloudfront.net . This will be the value that you enter in the cdnresources.url value in Config.groovy.
 
-	$ cdnresources.url = "http://jlsadf423kl24hlf.cloudfront.net"
-
-
-
-
+	$ cdnResources.url = "http://jlsadf423kl24hlf.cloudfront.net"
