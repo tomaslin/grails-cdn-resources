@@ -1,11 +1,13 @@
-Cdn-resources -- Content Delivery Network support for resources plugin
-======================================================================
+Cdn-resources -- Content Delivery Network support for grails resources plugin
+=============================================================================
+
+<a href="http://flattr.com/thing/304127/CND-Resources-plugin-for-grails" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
 
 ## DESCRIPTION
 
 This plugin allows you to use a content delivery network ( like Amazon CloudFront ) to deliver resources served by the grails resources plugin. It is loaded after the zipped and cached resources plugins so that any modifications made by these plugins will also apply.
 
-## Installation
+## INSTALLATION
 
 In your application directory, call
 
@@ -18,7 +20,7 @@ You would need to add the following parameters to your config.groovy file
 	
 If you set up your Content Delivery Network correctly, all your resource files will be served from the CDN from now on. 
 	
-## Setting up your CDN.
+## SETTING UP AMAZON CLOUDFRONT CDN SUPPORT
 
 Before you can use this plugin, you need to set up a content delivery network to dispatch your resources. 
 
@@ -42,13 +44,12 @@ The following section describes how to do so on Amazon CloudFront. You would nee
 
 ![Distribution](https://github.com/tomaslin/grails-cdn-resources/raw/master/docs/dist.png "Distribution details")
 
-## A note on the url string
+## A NOTE ON URLS
 
 You will see an url of the form jlsadf423kl24hlf.cloudfront.net . This will be the value that you enter in the cdnresources.url value in Config.groovy.
 
 	$ cdnresources.url = "http://jlsadf423kl24hlf.cloudfront.net"
 
 
-<a href="http://flattr.com/thing/304127/CND-Resources-plugin-for-grails" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
 
 
