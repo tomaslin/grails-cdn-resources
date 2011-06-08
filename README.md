@@ -24,23 +24,25 @@ Before you can use this plugin, you need to set up a content delivery network to
 
 The following section describes how to do so on Amazon CloudFront. You would need an account for this, which you can sign up for at http://aws.amazon.com/cloudfront/
 
-1. Login to your Amazon AWS Console - https://console.aws.amazon.com/cloudfront/home?
+1 Login to your Amazon AWS Console - https://console.aws.amazon.com/cloudfront/home?
 
-2. Click on Create Distribution
+2 Click on Create Distribution
 
-3. Select custom Origin and enter the URL of your site. 
+3 Select custom Origin and enter the URL of your site. 
 
 ![Set custom origin](https://github.com/tomaslin/grails-cdn-resources/raw/master/docs/origin.png "specifying an origin")
 
-4. If you wish to map the URL to a CNAME ( ie, point to cdn.mydomain.com instead of 5kfd933kkdd.cloudfront.net ), you can specify this in the next screen.
+4 If you wish to map the URL to a CNAME ( ie, point to cdn.mydomain.com instead of 5kfd933kkdd.cloudfront.net ), you can specify this in the next screen.
 
-5. Review the details and click OK.
+5 Review the details and click OK.
 
 ![Review Details](https://github.com/tomaslin/grails-cdn-resources/raw/master/docs/details.png "Review Details")
 
-6. You should now see your Cloudfront distribution. 
+6 You should now see your Cloudfront distribution. 
 
 ![Distribution](https://github.com/tomaslin/grails-cdn-resources/raw/master/docs/dist.png "Distribution details")
+
+## A note on the url string
 
 You will see an url of the form jlsadf423kl24hlf.cloudfront.net . This will be the value that you enter in the cdnresources.url value in Config.groovy.
 
