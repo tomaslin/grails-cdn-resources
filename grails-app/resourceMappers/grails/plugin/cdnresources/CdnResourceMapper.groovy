@@ -11,7 +11,7 @@ class CdnResourceMapper {
 
     def map(resource, config) {
         if( getCDNUrl() != 'none' ){
-            resource.actualUrl = url + resource.actualUrl
+            resource.linkOverride = url + resource.linkUrl
         }
     }
 	
