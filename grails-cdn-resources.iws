@@ -14,14 +14,7 @@
     <option name="historyRevisionsNumber" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34c8751a-4846-433f-a9c4-55fd5fa7936c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/projects/testCdn/target/testCdn-0.1.war" afterPath="$PROJECT_DIR$/test/projects/testCdn/target/testCdn-0.1.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/resourceMappers/grails/plugin/cdnresources/CdnResourceMapper.groovy" afterPath="$PROJECT_DIR$/grails-app/resourceMappers/grails/plugin/cdnresources/CdnResourceMapper.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-cdn-resources.iml" afterPath="$PROJECT_DIR$/grails-cdn-resources.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-cdn-resources.iws" afterPath="$PROJECT_DIR$/grails-cdn-resources.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin.xml" afterPath="$PROJECT_DIR$/plugin.xml" />
-    </list>
+    <list default="true" id="34c8751a-4846-433f-a9c4-55fd5fa7936c" name="Default" comment="" />
     <ignored path="grails-cdn-resources.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
@@ -84,7 +77,7 @@
       <file leaf-file-name="CdnResourceMapper.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/resourceMappers/grails/plugin/cdnresources/CdnResourceMapper.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="62" selection-start="362" selection-end="362" vertical-scroll-proportion="0.2364532">
+            <state line="34" column="0" selection-start="805" selection-end="805" vertical-scroll-proportion="0.6699507">
               <folding />
             </state>
           </provider>
@@ -261,6 +254,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-cdn-resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-cdn-resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -596,7 +603,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/resourceMappers/grails/plugin/cdnresources/CdnResourceMapper.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="62" selection-start="362" selection-end="362" vertical-scroll-proportion="0.2364532">
+        <state line="34" column="0" selection-start="805" selection-end="805" vertical-scroll-proportion="0.6699507">
           <folding />
         </state>
       </provider>
