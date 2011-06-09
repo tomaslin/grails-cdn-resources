@@ -77,7 +77,7 @@
       <file leaf-file-name="CdnResourceMapper.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/resourceMappers/grails/plugin/cdnresources/CdnResourceMapper.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="805" selection-end="805" vertical-scroll-proportion="0.6699507">
+            <state line="13" column="58" selection-start="373" selection-end="421" vertical-scroll-proportion="0.25615764">
               <folding />
             </state>
           </provider>
@@ -254,20 +254,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-cdn-resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-cdn-resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -461,7 +447,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="22" width="1276" height="778" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -603,7 +589,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/resourceMappers/grails/plugin/cdnresources/CdnResourceMapper.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="805" selection-end="805" vertical-scroll-proportion="0.6699507">
+        <state line="13" column="58" selection-start="373" selection-end="421" vertical-scroll-proportion="0.25615764">
           <folding />
         </state>
       </provider>

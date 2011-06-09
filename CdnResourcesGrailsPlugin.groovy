@@ -25,7 +25,7 @@ class CdnResourcesGrailsPlugin {
 Loads static resources using Content Delivery Networks using the Resources plugin framework
 '''
   // URL to the plugin's documentation
-  def documentation = "http://grails.org/plugin/cdn-resources"
+  def documentation = "https://github.com/tomaslin/grails-cdn-resources"
 
   def doWithWebDescriptor = { xml ->
   }
