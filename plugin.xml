@@ -1,4 +1,4 @@
-<plugin name='cdn-resources' version='0.1' grailsVersion='1.3.1 &gt; *'>
+<plugin name='cdn-resources' version='0.2' grailsVersion='1.3.1 &gt; *'>
   <author>Tomas Lin</author>
   <authorEmail>tomaslin@gmail.com</authorEmail>
   <title>Cdn Resources Plugin</title>

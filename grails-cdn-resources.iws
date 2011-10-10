@@ -15,11 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34c8751a-4846-433f-a9c4-55fd5fa7936c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CdnResourcesGrailsPlugin.groovy" afterPath="$PROJECT_DIR$/CdnResourcesGrailsPlugin.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/resourceMappers/grails/plugin/cdnresources/CdnResourceMapper.groovy" afterPath="$PROJECT_DIR$/grails-app/resourceMappers/grails/plugin/cdnresources/CdnResourceMapper.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-cdn-resources.iws" afterPath="$PROJECT_DIR$/grails-cdn-resources.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/grails/plugin/cdnresources/CdnMapperSpec.groovy" afterPath="$PROJECT_DIR$/test/unit/grails/plugin/cdnresources/CdnMapperSpec.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin.xml" afterPath="$PROJECT_DIR$/plugin.xml" />
     </list>
     <ignored path="grails-cdn-resources.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,10 +94,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CdnResourcesGrailsPlugin.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CdnResourcesGrailsPlugin.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CdnResourcesGrailsPlugin.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="20" selection-start="77" selection-end="77" vertical-scroll-proportion="0.04918033">
+            <state line="2" column="20" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,10 +112,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="22" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0">
+            <state line="1" column="77" selection-start="155" selection-end="155" vertical-scroll-proportion="0.021775544">
               <folding />
             </state>
           </provider>
@@ -158,8 +155,8 @@
         <option value="$PROJECT_DIR$/test/integration/ResourceTaglibIntegrationSpec.groovy" />
         <option value="$PROJECT_DIR$/test/unit/grails/plugin/cdnresources/CdnMapperSpec.groovy" />
         <option value="$PROJECT_DIR$/grails-app/resourceMappers/grails/plugin/cdnresources/CdnResourceMapper.groovy" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/CdnResourcesGrailsPlugin.groovy" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -612,7 +609,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1276" height="778" extended-state="1" />
+    <frame x="0" y="22" width="1276" height="778" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -709,13 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="22" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/grails/plugin/cdnresources/CdnMapperSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0">
@@ -725,7 +715,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CdnResourcesGrailsPlugin.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="77" selection-end="77" vertical-scroll-proportion="0.04918033">
+        <state line="2" column="20" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="77" selection-start="155" selection-end="155" vertical-scroll-proportion="0.021775544">
           <folding />
         </state>
       </provider>
