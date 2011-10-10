@@ -20,11 +20,13 @@ You would need to add the following parameters to your config.groovy file
 	$ grails.resources.cdn.enabled = true
 	$ grails.resources.cdn.url = "http://static.mydomain.com/"
 
+## SPECIFYING URLS PER MODULES
+
 You can also define a separate CDN location per module ( for files being hosted by Google, for example ).
 
 The syntax for this is
 
-	$ grails.resources.cdn.baseUrls = [ 'google' : 'http://www.google.com/apis', 'core' : 'http://subdomain.mysite.com' ]
+	$ grails.resources.cdn.moduleUrls = [ 'google' : 'http://www.google.com/apis', 'core' : 'http://subdomain.mysite.com' ]
 
 If you set up your Content Delivery Network correctly, all your resource files will be served from the CDN from now on. 
 	

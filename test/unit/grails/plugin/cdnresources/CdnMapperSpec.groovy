@@ -32,20 +32,20 @@ class CdnMapperSpec extends UnitSpec{
             resource.linkOverride == null
     }
 
-    def "a mapper can set a unique url based on module name"(){
+    def "a resource can set a unique url based on module name"(){
         setup:
             def resource = [ linkUrl : 'images.jpg', module: [ name: 'uno'] ]
-            def config = [ enabled: true, url:'http://www.google.com/', baseUrls : [ uno: 'http://uno.com/' ] ]
+            def config = [ enabled: true, url:'http://www.google.com/', moduleUrls : [ uno: 'http://uno.com/' ] ]
         when:
             mapper.map( resource, config )
         then:
             resource.linkOverride == 'http://uno.com/images.jpg'
     }
 
-    def "a mappers with modules default to base url"(){
+    def "a resource with no modules default to base url"(){
         setup:
             def resource = [ linkUrl : 'images.jpg', module: [ name: 'uno'] ]
-            def config = [ enabled: true, url:'http://www.google.com/', baseUrls : [ dos: 'http://dos.com/' ] ]
+            def config = [ enabled: true, url:'http://www.google.com/', moduleUrls : [ dos: 'http://dos.com/' ] ]
         when:
             mapper.map( resource, config )
         then:
