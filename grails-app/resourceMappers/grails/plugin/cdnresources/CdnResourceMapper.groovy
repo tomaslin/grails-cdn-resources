@@ -25,7 +25,7 @@ class CdnResourceMapper {
                 url = 'none'
             }
             if( url != 'none' && url.endsWith('/') ){
-                url = url[-1]
+                url = url[0..-1]
             }
 		}
         url
