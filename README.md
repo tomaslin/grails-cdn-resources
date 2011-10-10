@@ -1,6 +1,8 @@
 Cdn-resources -- Content Delivery Network support for grails resources plugin
 =============================================================================
 
+Experimental: do not use.
+
 <a href="http://flattr.com/thing/304127/CND-Resources-plugin-for-grails" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
 
 ## DESCRIPTION
@@ -15,9 +17,15 @@ In your application directory, call
 	
 You would need to add the following parameters to your config.groovy file
 
-	$ cdnResources.enabled = true
-	$ cdnResources.url = "http://static.mydomain.com/"
-	
+	$ grails.resources.cdn.enabled = true
+	$ grails.resources.cdn.url = "http://static.mydomain.com/"
+
+You can also define a separate CDN location per module ( for files being hosted by Google, for example ).
+
+The syntax for this is
+
+	$ grails.resources.cdn.baseUrls = [ 'google' : 'http://www.google.com/apis', 'core' : 'http://subdomain.mysite.com' ]
+
 If you set up your Content Delivery Network correctly, all your resource files will be served from the CDN from now on. 
 	
 ## SETTING UP AMAZON CLOUDFRONT CDN SUPPORT
@@ -46,9 +54,6 @@ The following section describes how to do so on Amazon CloudFront. You would nee
 
 ## A NOTE ON URLS
 
-You will see an url of the form jlsadf423kl24hlf.cloudfront.net . This will be the value that you enter in the cdnresources.url value in Config.groovy.
+You will see an url of the form jlsadf423kl24hlf.cloudfront.net. This will be the value that you enter in the cdnresources.url value in Config.groovy.
 
-	$ cdnResources.url = "http://jlsadf423kl24hlf.cloudfront.net"
-	
-
-
+	$ grails.resource.cdn.url = "http://jlsadf423kl24hlf.cloudfront.net"
