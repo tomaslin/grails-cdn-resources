@@ -54,6 +54,6 @@ The following section describes how to do so on Amazon CloudFront. You would nee
 
 ## A NOTE ON URLS
 
-You will see an url of the form jlsadf423kl24hlf.cloudfront.net. This will be the value that you enter in the cdnresources.url value in Config.groovy.
+You will see an url of the form jlsadf423kl24hlf.cloudfront.net. This will be the value that you enter in the grails.resources.cdn.url value in Config.groovy.
 
 	$ grails.resources.cdn.url = "http://jlsadf423kl24hlf.cloudfront.net"
