@@ -1,6 +1,6 @@
 class CdnResourcesGrailsPlugin {
   // the plugin version
-  def version = "0.2"
+  def version = "0.2.1"
   // the version or versions of Grails the plugin is designed for
   def grailsVersion = "1.3.1 > *"
 
@@ -26,7 +26,7 @@ Loads static resources using Content Delivery Networks using the Resources plugi
 '''
   // URL to the plugin's documentation
   def documentation = "https://github.com/tomaslin/grails-cdn-resources"
-
+  def license ='APACHE'
   def doWithWebDescriptor = { xml ->
   }
 

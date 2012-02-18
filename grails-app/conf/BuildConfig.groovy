@@ -17,6 +17,5 @@ grails.project.dependency.resolution = {
         mavenCentral()
     }
     dependencies {
-        build "net.java.dev.jets3t:jets3t:0.8.0"
     }
 }
