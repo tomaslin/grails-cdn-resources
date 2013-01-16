@@ -1,5 +1,7 @@
+# NOTE: The functionality of this plugin has been merged into the main resources plugin under the baseUrl functionality. You don't need to use this plugin anymore and it will not be maintained. 
+
+
 Cdn-resources -- Content Delivery Network support for grails resources plugin
-=============================================================================
 
 <a href="http://flattr.com/thing/304127/CND-Resources-plugin-for-grails" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
 
